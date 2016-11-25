@@ -1,0 +1,9 @@
+\section{Solution Framework}
+\blindtext
+
+\begin{figure*}
+\centering
+\includegraphics[scale=0.5]{Framework}
+\captionsetup{justification=centering}
+\caption{Solution Framework}
+\end{figure*}

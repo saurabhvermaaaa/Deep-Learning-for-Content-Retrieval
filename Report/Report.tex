@@ -325,7 +325,7 @@
 
 % *** PDF, URL AND HYPERLINK PACKAGES ***
 %
-%\usepackage{url}
+\usepackage{url}
 % url.sty was written by Donald Arseneau. It provides better support for
 % handling and breaking URLs. url.sty is already installed on most LaTeX
 % systems. The latest version can be obtained at:
@@ -346,13 +346,16 @@
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
-
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{mathptmx}
 
 \begin{document}
 %
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{Using Deep Learning to kill redundant news content}
+\title{Making the news concise again}
 
 
 % author names and affiliations
@@ -516,10 +519,12 @@ balarfcs@iitr.ac.in}}
 \input{abstract}
 \input{keywords}
 \input{introduction}
-\input{related}
-\input{evaluation}
 \input{business}
+\input{related}
+\input{framework}
+\input{evaluation}
 \input{conclusion}
+\input{future}
 \bibliography{references}
 \bibliographystyle{ieeetr}
 \end{document}
