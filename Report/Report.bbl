@@ -5,4 +5,26 @@ Y.~LeCun, L.~Bottou, Y.~Bengio, and P.~Haffner, ``Gradient-based learning
   applied to document recognition,'' {\em Proceedings of the IEEE}, vol.~86,
   no.~11, pp.~2278--2324, 1998.
 
+\bibitem{szabo2010predicting}
+G.~Szabo and B.~A. Huberman, ``Predicting the popularity of online content,''
+  {\em Communications of the ACM}, vol.~53, no.~8, pp.~80--88, 2010.
+
+\bibitem{Tatar:2011:PPO:1988688.1988766}
+A.~Tatar, J.~Leguay, P.~Antoniadis, A.~Limbourg, M.~D. de~Amorim, and S.~Fdida,
+  ``Predicting the popularity of online articles based on user comments,'' in
+  {\em Proceedings of the International Conference on Web Intelligence, Mining
+  and Semantics}, WIMS '11, (New York, NY, USA), pp.~67:1--67:8, ACM, 2011.
+
+\bibitem{Ilievski:2013:PNR:2516641.2516644}
+I.~Ilievski and S.~Roy, ``Personalized news recommendation based on implicit
+  feedback,'' in {\em Proceedings of the 2013 International News Recommender
+  Systems Workshop and Challenge}, NRS '13, (New York, NY, USA), pp.~10--15,
+  ACM, 2013.
+
+\bibitem{bao2013georank}
+J.~Bao and M.~F. Mokbel, ``Georank: an efficient location-aware news feed
+  ranking system,'' in {\em Proceedings of the 21st ACM SIGSPATIAL
+  International Conference on Advances in Geographic Information Systems},
+  pp.~184--193, ACM, 2013.
+
 \end{thebibliography}

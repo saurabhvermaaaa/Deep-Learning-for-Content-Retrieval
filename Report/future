@@ -1,4 +1,6 @@
 \section{Future Work}
-\begin{figure}
-\end{figure}
-\blindtext
+\begin{enumerate}
+\item Information explosion is prevalent not only in news items, but across different content classes. There rises the opportunity to extend the current work for multiple classes.
+\item There are abundant works \cite{szabo2010predicting} \cite{Tatar:2011:PPO:1988688.1988766} which when given initial popularity of some content, are better able to forecast popularity. With that notion, we want to adapt the predictions to incoming hits.
+\item With growing amount of personalization in different news agents \cite{Ilievski:2013:PNR:2516641.2516644} \cite{bao2013georank}, there exists a demand and an opportunity for the same in this work. 
+\end{enumerate}
