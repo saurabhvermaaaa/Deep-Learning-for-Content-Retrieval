@@ -1,2 +1,7 @@
 \section{Business}
-\blindtext
+\begin{itemize}
+\item\textbf{Content Caching and Traffic Management} There is a hidden cost to publishing content, the cost to review and maintain the content. The millions of articles also affect the usability and maintainability of the site. In the long run, it is necessary to tackle redundant, outdated and trivial content which has been cursing the site.
+\item\textbf{Advertising} This work finds it's use in media advertising and ad placement.
+\item\textbf{News Aggregation}
+\item\textbf{Trends Forecasting}
+\end{itemize}
