@@ -1,9 +1,11 @@
 \section{Solution Framework}
+Fig.\ref{fig:Framework} shows a high level overview of the solution framework.
 \begin{figure*}
 \centering
 \includegraphics[scale=0.45]{Framework}
 \captionsetup{justification=centering}
 \caption{Solution Framework}
+\label{fig:Framework}
 \end{figure*}
 
 \subsection{Preprocessing}

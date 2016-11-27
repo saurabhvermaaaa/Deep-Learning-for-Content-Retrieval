@@ -1,4 +1,4 @@
 \begin{abstract}
-%\boldmath
-\blindtext[1]
+\boldmath
+Due to the perception of cheap publishing, organizations have been producing humongous content online since the hidden cost of maintenance and usability has always been neglected. This presents the opportunity for automatically maintaing crisp and usable content, especially in news articles. In this paper, we use deep learning to extract features from different classes of content and cluster them under an umbrella topic. From each cluster, we then go on to predict popularity of documents using additional features based on the content only. We conduct our experiments on different news corpuses. Our study also serves to remove information redundancy in multiple documents.
 \end{abstract}

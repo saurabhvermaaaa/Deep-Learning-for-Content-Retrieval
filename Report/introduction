@@ -6,6 +6,8 @@ However, predicting the online popularity of online news articles is a challengi
 The news data for our study has been collected from AG's news corpus and Financial News Dataset.
 To generate features for the articles, we have used Character-level Cconvolution Neural Network. To remove redundant information, we perform specific topic-wise clustering in a certain timeframe. For each cluster, we analyze the contents of new articles and use those for prediction of the popularity prior to publishing. Our work shall also help content writers to remove irrelevant, outdated, trivial and redundant content.
 
+Fig.\ref{fig:KanpurAccident} shows the results of search query "Kanpur Train" on Novermber 26, 2016 at 16:44IST on Google News. As we can see, outdated news reports are ranked better than latest news reports. This may be because of social influence of outdated and redundant news over different media channels. Our aim here is to rank the latest and the most informative articles at the top.
+
 The rest of the paper is organized as follows. Section II describes the business motivation and opportunities behind the problem. Section III gives a glimpse of the related academic work we have surveyed over the due course. Section IV details the solution framework determined for the problem. After that, in Section V we describe the evaluation criteria for different experiments to be conducted. Finally, we conclude with a summary of this work in Section VI and future possibilities and extensions in Section VII.
 
 \begin{figure*}
@@ -13,6 +15,6 @@ The rest of the paper is organized as follows. Section II describes the business
 \includegraphics[scale=0.6]{Kanpur}
 \captionsetup{justification=centering}
 \caption{Google News results on query Kanpur train on 26 Nov. 2016 at 16:44 IST.}
+\label{fig:KanpurAccident}
 \end{figure*}
-
 \clearpage
