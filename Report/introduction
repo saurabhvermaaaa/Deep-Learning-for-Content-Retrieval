@@ -1,2 +1,18 @@
 \section{Introduction}
-\blindtext\cite{lecun1998gradient}
+News articles are very dynamic in nature due to continuously developing nature of the event and parallel reporting of the same thus they have a very short span of life. The ease and low cost of online content creation and sharing have changed the traditional rules of competition for public attention. News sources now concentrate a large portion of attention on online mediums where they can disseminate their news effectively and to a large population.
+Due to the time-sensitive post aspect and intense competition for attention in the socially connected digital platform, accurately estimating the extent to which a news article will spread on the web is extremely valuable to journalists, content providers, advertisers and news recommended systems.
+However, predicting the online popularity of online news articles is a challenging task. First, context outside the web is often not readily accessible and elements such as local and geographical conditions and various circumstances that affect the population to make this prediction difficult. Furthermore, network properties such as the structure of social networks that are propagating the news, influence variations among members and interplay between different sections of the web add other layers of complexity to this problem. Most significantly, intuition suggests that content of an article must play a significant role in its popularity. Content that resonates with a majority of readers such as a major worldwide event can be expected to garner wide attention while specific content relevant only to a few may not be as successful. Content that is up-to-date and highlights all aspect of that article.
+
+The news data for our study has been collected from AG's news corpus and Financial News Dataset.
+To generate features for the articles, we have used Character-level Cconvolution Neural Network. To remove redundant information, we perform specific topic-wise clustering in a certain timeframe. For each cluster, we analyze the contents of new articles and use those for prediction of the popularity prior to publishing. Our work shall also help content writers to remove irrelevant, outdated, trivial and redundant content.
+
+The rest of the paper is organized as follows. Section II describes the business motivation and opportunities behind the problem. Section III gives a glimpse of the related academic work we have surveyed over the due course. Section IV details the solution framework determined for the problem. After that, in Section V we describe the evaluation criteria for different experiments to be conducted. Finally, we conclude with a summary of this work in Section VI and future possibilities and extensions in Section VII.
+
+\begin{figure*}
+\centering
+\includegraphics[scale=0.6]{Kanpur}
+\captionsetup{justification=centering}
+\caption{Google News results on query Kanpur train on 26 Nov. 2016 at 16:44 IST.}
+\end{figure*}
+
+\clearpage

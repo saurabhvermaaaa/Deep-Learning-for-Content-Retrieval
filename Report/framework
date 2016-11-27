@@ -1,12 +1,32 @@
 \section{Solution Framework}
 \begin{figure*}
 \centering
-\includegraphics[scale=0.5]{Framework}
+\includegraphics[scale=0.45]{Framework}
 \captionsetup{justification=centering}
 \caption{Solution Framework}
 \end{figure*}
 
 \subsection{Preprocessing}
+We preprocess the data to make processing more meaningful \cite{weber2013finding}.
+\begin{itemize}
+\item\textbf{Filtering} Removal of markup, punctuation and special characters from sentences.
+\item\textbf{Tokenization} Splitting of text into individual units.
+\item\textbf{Stemming} Reduction of words to their base forms \cite{porter1980algorithm}.
+\item\textbf{Stopwords removal} Deletion of words that do not convey any special meaning.
+\item\textbf{Pruning} Removal of words that do appear with a low frequency throughout the text.
+\end{itemize}
+The result of these preprocessing steps is a set of feature words.
 \subsection{Text Understanding}
+\cite{zhang2015character} \cite{zhang2015text} \cite{lecun1998gradient}.
 \subsection{Clustering}
+\cite{weber2013finding} \cite{zhu2014finding}.
 \subsection{Popularity Prediction}
+\cite{bandari2012pulse}.
+\begin{itemize}
+\item\textbf{Age} The date of publication of news given by the dataset. We remove few records with missing dates.
+\item\textbf{Text Quality} The ratio of size of document before and after preprocessing.
+\item\textbf{Source Quality} The popularity of source of the content given by initial number of hits provided by the source. If missing, we use the popularity of news agent as a whole. This is log-normalized to account for high range of hits.
+\item\textbf{Subjectivity} The ratio of size of document before and after preprocessing.
+\item\textbf{Named Entities} The ratio of size of document before and after preprocessing.
+\item\textbf{Factual Density} The ratio of size of document before and after preprocessing \cite{Lex:2012:MQW:2184305.2184308}.
+\end{itemize}

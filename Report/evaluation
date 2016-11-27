@@ -1,7 +1,18 @@
 \section{Experimental Evaluation}
+
 \subsection{Dataset}
 \begin{enumerate}
 \item \textbf{AG's news corpus} We obtained AG's corpus of news articles on the web\footnote{\url{https://www.di.unipi.it/~gulli/AG_corpus_of_news_articles.html}}. It contains more than 1 million news aricles from more than 2000 sources. We use the source, title, description, rank and pubdate fields for our experiments.
+
 \item \textbf{Financial News Dataset} We obtained financial news dataset of Bloomberg and Reuters\footnote{\url{https://github.com/philipperemy/financial-news-dataset}}. It contains 450,341 articles from Bloomberg and 109,110 articles from Reuters. It provides us title, content, date and author of the article.
+
+\item \textbf{20 Newsgroups Dataset} The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups. The data is organized into 20 different newsgroups, each corresponding to a different topic.\footnote{\url{http://scikit-learn.org/stable/datasets/twenty_newsgroups.html}}
  \end{enumerate}
+
 \subsection{Baseline}
+\begin{enumerate}
+\item\textbf{News Aggregators} We conduct an internal survey to verify initial results of the pipeline when compared with different news agents and aggregators like Google News, Feedly, Digg etc.
+\item\textbf{TF-IDF Comparison} We use an obvious baseline based on sum of tf-idf scores of entities in the document to rank it's importance.
+\item\textbf{Bandari et. al.} We use an obvious baseline based on sum of tf-idf scores of entities in the document to rank it's importance.\cite{bandari2012pulse}
+\item\textbf{Clustering Metrics} We use an obvious baseline based on sum of tf-idf scores of entities in the document to rank it's importance. \cite{kovacs2005cluster} \cite{davies1979cluster}
+\end{enumerate}

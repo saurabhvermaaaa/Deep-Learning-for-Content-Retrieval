@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {I}Introduction}{2}
+\contentsline {section}{\numberline {II}Business}{4}
+\contentsline {section}{\numberline {III}Related Work}{4}
+\contentsline {section}{\numberline {IV}Solution Framework}{4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Preprocessing}{4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Text Understanding}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Clustering}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}Popularity Prediction}{5}
+\contentsline {section}{\numberline {V}Experimental Evaluation}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Dataset}{5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}Baseline}{6}
+\contentsline {section}{\numberline {VI}Conclusion}{6}
+\contentsline {section}{\numberline {VII}Future Work}{6}
+\contentsline {section}{References}{6}

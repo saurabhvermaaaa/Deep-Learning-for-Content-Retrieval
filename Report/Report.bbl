@@ -1,9 +1,70 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{lecun1989backpropagation}
+Y.~LeCun, B.~Boser, J.~S. Denker, D.~Henderson, R.~E. Howard, W.~Hubbard, and
+  L.~D. Jackel, ``Backpropagation applied to handwritten zip code
+  recognition,'' {\em Neural computation}, vol.~1, no.~4, pp.~541--551, 1989.
 
 \bibitem{lecun1998gradient}
 Y.~LeCun, L.~Bottou, Y.~Bengio, and P.~Haffner, ``Gradient-based learning
   applied to document recognition,'' {\em Proceedings of the IEEE}, vol.~86,
   no.~11, pp.~2278--2324, 1998.
+
+\bibitem{zhang2015character}
+X.~Zhang, J.~Zhao, and Y.~LeCun, ``Character-level convolutional networks for
+  text classification,'' in {\em Advances in Neural Information Processing
+  Systems}, pp.~649--657, 2015.
+
+\bibitem{dos2014deep}
+C.~N. dos Santos and M.~Gatti, ``Deep convolutional neural networks for
+  sentiment analysis of short texts.,'' in {\em COLING}, pp.~69--78, 2014.
+
+\bibitem{kim2014convolutional}
+Y.~Kim, ``Convolutional neural networks for sentence classification,'' {\em
+  arXiv preprint arXiv:1408.5882}, 2014.
+
+\bibitem{johnson2014effective}
+R.~Johnson and T.~Zhang, ``Effective use of word order for text categorization
+  with convolutional neural networks,'' {\em arXiv preprint arXiv:1412.1058},
+  2014.
+
+\bibitem{weber2013finding}
+M.~Weber and M.~H. Lamers, ``Finding news in a haystack-event based news
+  clustering with social media based ranking,'' in {\em Cloud and Green
+  Computing (CGC), 2013 Third International Conference on}, pp.~321--326, IEEE,
+  2013.
+
+\bibitem{porter1980algorithm}
+M.~F. Porter, ``An algorithm for suffix stripping,'' {\em Program}, vol.~14,
+  no.~3, pp.~130--137, 1980.
+
+\bibitem{zhang2015text}
+X.~Zhang and Y.~LeCun, ``Text understanding from scratch,'' {\em arXiv preprint
+  arXiv:1502.01710}, 2015.
+
+\bibitem{zhu2014finding}
+X.~Zhu and T.~Oates, ``Finding story chains in newswire articles using random
+  walks,'' {\em Information Systems Frontiers}, vol.~16, no.~5, pp.~753--769,
+  2014.
+
+\bibitem{bandari2012pulse}
+R.~Bandari, S.~Asur, and B.~A. Huberman, ``The pulse of news in social media:
+  Forecasting popularity,'' {\em arXiv preprint arXiv:1202.0332}, 2012.
+
+\bibitem{Lex:2012:MQW:2184305.2184308}
+E.~Lex, M.~Voelske, M.~Errecalde, E.~Ferretti, L.~Cagnina, C.~Horn, B.~Stein,
+  and M.~Granitzer, ``Measuring the quality of web content using factual
+  information,'' in {\em Proceedings of the 2Nd Joint WICOW/AIRWeb Workshop on
+  Web Quality}, WebQuality '12, (New York, NY, USA), pp.~7--10, ACM, 2012.
+
+\bibitem{kovacs2005cluster}
+F.~Kov{\'a}cs, C.~Leg{\'a}ny, and A.~Babos, ``Cluster validity measurement
+  techniques,'' Citeseer.
+
+\bibitem{davies1979cluster}
+D.~L. Davies and D.~W. Bouldin, ``A cluster separation measure,'' {\em IEEE
+  transactions on pattern analysis and machine intelligence}, no.~2,
+  pp.~224--227, 1979.
 
 \bibitem{szabo2010predicting}
 G.~Szabo and B.~A. Huberman, ``Predicting the popularity of online content,''

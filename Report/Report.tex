@@ -62,10 +62,10 @@
 % should be used if it is desired that the figures are to be displayed in
 % draft mode.
 %
-%\documentclass[conference, onecolumn]{IEEEtran}
-\documentclass[conference]{IEEEtran}
+\documentclass[conference, onecolumn,12pt,final,a4paper]{IEEEtran}
+%\documentclass[conference]{IEEEtran}
 \usepackage{blindtext, graphicx}
-%\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
 % Add the compsoc option for Computer Society conferences.
 %
 % If IEEEtran.cls has not been installed into the LaTeX system files,
@@ -357,27 +357,27 @@
 %
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{Making the news concise again}
+%\title{Making the news great again}
 
 
 % author names and affiliations
 % use a multiple column layout for up to three different
 % affiliations
-\author{\IEEEauthorblockN{Saurabh Verma}
-\IEEEauthorblockA{Indian Institute of Technology\\ Roorkee\\
-saurrv@gmail.com}
-\and
-\IEEEauthorblockN{Vikash Kumar}
-\IEEEauthorblockA{Indian Institute of Technology\\ Roorkee\\
-vikash4466kumar@gmail.com}
-\and
-\IEEEauthorblockN{Sachin Aggarwal}
-\IEEEauthorblockA{Indian Institute of Technology\\ Roorkee\\
-sachinaggarwal077@gmail.com}
-\and
-\IEEEauthorblockN{Balasubramanian Raman}
-\IEEEauthorblockA{Indian Institute of Technology\\ Roorkee\\
-balarfcs@iitr.ac.in}}
+%\author{\IEEEauthorblockN{Saurabh Verma}
+%\IEEEauthorblockA{Indian Institute of Technology\\ Roorkee\\
+%saurrv@gmail.com}
+%\and
+%\IEEEauthorblockN{Vikash Kumar}
+%\IEEEauthorblockA{Indian Institute of Technology Roorkee\\
+%vikash4466kumar@gmail.com}
+%\and
+%\IEEEauthorblockN{Sachin Aggarwal}
+%\IEEEauthorblockA{Indian Institute of Technology Roorkee\\
+%sachinaggarwal077@gmail.com}
+%\and
+%\IEEEauthorblockN{Balasubramanian Raman}
+%\IEEEauthorblockA{Indian Institute of Technology\\ Roorkee\\
+%balarfcs@iitr.ac.in}}
 
 % conference papers do not typically use \thanks and this command
 % is locked out in conference mode. If really needed, such as for
@@ -411,7 +411,7 @@ balarfcs@iitr.ac.in}}
 
 
 % make the title area
-\maketitle
+%\maketitle
 
 % IEEEtran.cls defaults to using nonbold math in the Abstract.
 % This preserves the distinction between vectors and scalars. However,
@@ -516,7 +516,8 @@ balarfcs@iitr.ac.in}}
 % Note that, LaTeX2e, unlike IEEE journals, places footnotes above bottom
 % floats. This can be corrected via the \fnbelowfloat command of the
 % stfloats package.
-
+\tableofcontents
+\newpage
 \input{abstract}
 \input{keywords}
 \input{introduction}
