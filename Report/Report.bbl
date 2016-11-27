@@ -38,6 +38,11 @@ M.~Weber and M.~H. Lamers, ``Finding news in a haystack-event based news
 M.~F. Porter, ``An algorithm for suffix stripping,'' {\em Program}, vol.~14,
   no.~3, pp.~130--137, 1980.
 
+\bibitem{linell2004written}
+P.~Linell, {\em The written language bias in linguistics: Its nature, origins
+  and transformations}.
+\newblock Routledge, 2004.
+
 \bibitem{zhang2015text}
 X.~Zhang and Y.~LeCun, ``Text understanding from scratch,'' {\em arXiv preprint
   arXiv:1502.01710}, 2015.
@@ -57,14 +62,18 @@ E.~Lex, M.~Voelske, M.~Errecalde, E.~Ferretti, L.~Cagnina, C.~Horn, B.~Stein,
   information,'' in {\em Proceedings of the 2Nd Joint WICOW/AIRWeb Workshop on
   Web Quality}, WebQuality '12, (New York, NY, USA), pp.~7--10, ACM, 2012.
 
-\bibitem{kovacs2005cluster}
-F.~Kov{\'a}cs, C.~Leg{\'a}ny, and A.~Babos, ``Cluster validity measurement
-  techniques,'' Citeseer.
+\bibitem{dunn1974well}
+J.~C. Dunn†, ``Well-separated clusters and optimal fuzzy partitions,'' {\em
+  Journal of cybernetics}, vol.~4, no.~1, pp.~95--104, 1974.
 
 \bibitem{davies1979cluster}
 D.~L. Davies and D.~W. Bouldin, ``A cluster separation measure,'' {\em IEEE
   transactions on pattern analysis and machine intelligence}, no.~2,
   pp.~224--227, 1979.
+
+\bibitem{kovacs2005cluster}
+F.~Kov{\'a}cs, C.~Leg{\'a}ny, and A.~Babos, ``Cluster validity measurement
+  techniques,'' Citeseer.
 
 \bibitem{szabo2010predicting}
 G.~Szabo and B.~A. Huberman, ``Predicting the popularity of online content,''

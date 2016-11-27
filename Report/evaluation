@@ -13,6 +13,6 @@
 \begin{enumerate}
 \item\textbf{News Aggregators} We conduct an internal survey to verify initial results of the pipeline when compared with different news agents and aggregators like Google News, Feedly, Digg etc.
 \item\textbf{TF-IDF Comparison} We use an obvious baseline based on sum of tf-idf scores of entities in the document to rank it's importance.
-\item\textbf{Bandari et. al.} We use an obvious baseline based on sum of tf-idf scores of entities in the document to rank it's importance.\cite{bandari2012pulse}
-\item\textbf{Clustering Metrics} We use an obvious baseline based on sum of tf-idf scores of entities in the document to rank it's importance. \cite{kovacs2005cluster} \cite{davies1979cluster}
+\item\textbf{Bandari et. al.} We compare the results of our work with previous work by Bandari et. al. \cite{bandari2012pulse} which predict popularity of news articles on twitter using features derived only from content prior to publishing.
+\item\textbf{Clustering Metrics} There exist multiple clustering metrics like Dunn index\cite{dunn1974well}, Davies-Bouldin index \cite{davies1979cluster} etc. \cite{kovacs2005cluster} to measure how good the clustering is. With this, we test first two modules of the pipeline, namely, feature extraction and clustering.
 \end{enumerate}

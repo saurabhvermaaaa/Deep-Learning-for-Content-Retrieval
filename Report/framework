@@ -19,6 +19,21 @@ We preprocess the data to make processing more meaningful \cite{weber2013finding
 \end{itemize}
 The result of these preprocessing steps is a set of feature words.
 \subsection{Text Understanding}
+\begin{figure}
+\centering
+\includegraphics[scale=1]{DeepLearningModel}
+\captionsetup{justification=centering}
+\caption{Deep ConvNets model illustration for Feature extraction.}
+\label{fig:DeepLearningModel}
+\end{figure}
+Text understanding consists in reading texts formed in natural languages, determining the explicit or implicit meaning of each element such as words,phrases, sentences and paragraphs, and making inferences about the implicit or explicit properties of these texts\cite{linell2004written}. Text understanding can be handled by a deep learning system without artificially embedding knowledge about words, phrases, sentences or any other syntactic or semantic structures associated with a language.
+ConvNets for text understanding are modular, where gradients are obtained by back-propagation to perform optimization.
+
+\textbf{Key Modules:} It is a temporal convolutional module, which simply computes a 1-D convolution between input and output.
+
+\textbf{Character Quantization:} Our model accepts a sequence of encoded characters as input. The encoding is done by prescribing an alphabet of size m for the input language, and then quantize each character using 1-of-m encoding. Then, the sequence of characters is transformed into a sequence of such m sized vectors with fixed length l. Any character exceeding length l is ignored, and any characters that are not in the alphabet including blank characters is quantized as all-zero vectors.
+
+\textbf{Model Design:} Models shall be tested with different number of hidden units and frame sizes to train model for optimal results. 
 \cite{zhang2015character} \cite{zhang2015text} \cite{lecun1998gradient}.
 \subsection{Clustering}
 \cite{weber2013finding} \cite{zhu2014finding}.

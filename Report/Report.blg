@@ -5,45 +5,45 @@ The style file: ieeetr.bst
 Database file #1: references.bib
 Warning--empty booktitle in kovacs2005cluster
 Warning--empty year in kovacs2005cluster
-You've used 18 entries,
+You've used 20 entries,
             1876 wiz_defined-function locations,
-            590 strings with 6911 characters,
-and the built_in function-call counts, 5367 in all, are:
-= -- 533
-> -- 196
+            602 strings with 7164 characters,
+and the built_in function-call counts, 5798 in all, are:
+= -- 580
+> -- 204
 < -- 0
-+ -- 72
-- -- 54
-* -- 381
-:= -- 738
-add.period$ -- 18
-call.type$ -- 18
-change.case$ -- 18
++ -- 76
+- -- 56
+* -- 406
+:= -- 797
+add.period$ -- 21
+call.type$ -- 20
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 291
-empty$ -- 522
-format.name$ -- 54
-if$ -- 1308
+cite$ -- 22
+duplicate$ -- 315
+empty$ -- 570
+format.name$ -- 56
+if$ -- 1417
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 18
-newline$ -- 57
-num.names$ -- 18
-pop$ -- 67
+int.to.str$ -- 20
+missing$ -- 21
+newline$ -- 64
+num.names$ -- 20
+pop$ -- 74
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 196
+skip$ -- 208
 stack$ -- 0
-substring$ -- 395
-swap$ -- 115
+substring$ -- 422
+swap$ -- 123
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 57
-width$ -- 20
-write$ -- 180
+while$ -- 62
+width$ -- 22
+write$ -- 200
 (There were 2 warnings)
