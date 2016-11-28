@@ -20,7 +20,7 @@ We preprocess the data to make processing more meaningful \cite{weber2013finding
 The result of these preprocessing steps is a set of feature words.
 
 \subsection{Text Understanding}
-Text understanding consists in reading texts formed in natural languages, determining the explicit or implicit meaning of each element such as words,phrases, sentences and paragraphs, and making inferences about the implicit or explicit properties of these texts\cite{linell2004written}. Text understanding can be handled by a deep learning system without artificially embedding knowledge about words, phrases, sentences or any other syntactic or semantic structures associated with a language.
+Text understanding consists in reading texts formed in natural languages, determining the explicit or implicit meaning of each element such as words,phrases, sentences and paragraphs, and making inferences about the implicit or explicit properties of these texts\cite{linell2004written}. Text understanding can be handled by a deep learning system without artificially embedding knowledge about words, phrases, sentences or any other syntactic or semantic structures associated with a language \cite{zhang2015character} \cite{zhang2015text} \cite{lecun1998gradient}.
 ConvNets for text understanding are modular, where gradients are obtained by back-propagation to perform optimization.
 
 \textbf{Key Modules:} It is a temporal convolutional module, which simply computes a 1-D convolution between input and output.
@@ -35,8 +35,6 @@ ConvNets for text understanding are modular, where gradients are obtained by bac
 \caption{Deep ConvNets model illustration for Feature extraction.}
 \label{fig:DeepLearningModel}
 \end{figure}
-
-\cite{zhang2015character} \cite{zhang2015text} \cite{lecun1998gradient}.
 
 \subsection{Clustering}
 In recent years, internet has become a mainstream medium and offers opportunity for large-scale production and distribution. With more news than ever, it has become increasingly difficult to find relevant news. Regardless which approach is taken and which services are used, one may be confronted with multiple news about the same event within the field of interest. The importance of a news event creates the need for a regular detailed coverage and hence, duplicates and redundant pieces. During high-peak of interest to a particular topic, there is no imit to number of duplicates produced. We need to manually filter and review the relevant news pieces. Existing approaches like Weber et. al. \cite{weber2013finding} cluster news pieces based on similarity of textual content. We intend to use deep learning feature vectors for clustering news items into highly specific cluster from a particular news event. Clustering algorithm k-means\cite{telgarsky2010hartigan} does not work because it requires number of clusters beforehand. As the number of clusters will never be fixed, we use Average-link agglomerative clustering. We believe that the cluster should be densely connected to an event and thus, average-link distance.
