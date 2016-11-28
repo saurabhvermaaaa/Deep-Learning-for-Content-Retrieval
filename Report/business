@@ -1,7 +1,7 @@
 \section{Business}
 \begin{itemize}
 \item\textbf{Content Caching and Traffic Management} There is a hidden cost to publishing content, the cost to review and maintain the content. The millions of articles also affect the usability and maintainability of the site. In the long run, it is necessary to tackle redundant, outdated and trivial content which has been cursing the site.
-\item\textbf{Advertising} This work finds it's use in media advertising and ad placement.
-\item\textbf{News Aggregation}
-\item\textbf{Trends Forecasting}
+\item\textbf{Advertising} This work can finds it's application in content-based advertisement alongside news pieces. It will optimize ad-placement logistics and revenues.
+\item\textbf{News Aggregation} With our current event driven clusters knowledge base, we predict the popularity of written articles to be published in that domain. It will allow content writer to write more relevant and less redundant pieces that can make it different from current flowing articles. We have been aggregating up-to-date content rich articles ignoring social backlinks.
+\item\textbf{Trends Forecasting} Since the cache contains most popular pieces from different news events, we are able to show current trends with no redundancy. This data helps in forecasting future trends.
 \end{itemize}

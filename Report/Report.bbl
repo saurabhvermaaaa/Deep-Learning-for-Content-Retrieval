@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{weber2013finding}
+M.~Weber and M.~H. Lamers, ``Finding news in a haystack-event based news
+  clustering with social media based ranking,'' in {\em Cloud and Green
+  Computing (CGC), 2013 Third International Conference on}, pp.~321--326, IEEE,
+  2013.
+
 \bibitem{lecun1989backpropagation}
 Y.~LeCun, B.~Boser, J.~S. Denker, D.~Henderson, R.~E. Howard, W.~Hubbard, and
   L.~D. Jackel, ``Backpropagation applied to handwritten zip code
@@ -28,11 +34,19 @@ R.~Johnson and T.~Zhang, ``Effective use of word order for text categorization
   with convolutional neural networks,'' {\em arXiv preprint arXiv:1412.1058},
   2014.
 
-\bibitem{weber2013finding}
-M.~Weber and M.~H. Lamers, ``Finding news in a haystack-event based news
-  clustering with social media based ranking,'' in {\em Cloud and Green
-  Computing (CGC), 2013 Third International Conference on}, pp.~321--326, IEEE,
-  2013.
+\bibitem{szabo2010predicting}
+G.~Szabo and B.~A. Huberman, ``Predicting the popularity of online content,''
+  {\em Communications of the ACM}, vol.~53, no.~8, pp.~80--88, 2010.
+
+\bibitem{Tatar:2011:PPO:1988688.1988766}
+A.~Tatar, J.~Leguay, P.~Antoniadis, A.~Limbourg, M.~D. de~Amorim, and S.~Fdida,
+  ``Predicting the popularity of online articles based on user comments,'' in
+  {\em Proceedings of the International Conference on Web Intelligence, Mining
+  and Semantics}, WIMS '11, (New York, NY, USA), pp.~67:1--67:8, ACM, 2011.
+
+\bibitem{bandari2012pulse}
+R.~Bandari, S.~Asur, and B.~A. Huberman, ``The pulse of news in social media:
+  Forecasting popularity,'' {\em arXiv preprint arXiv:1202.0332}, 2012.
 
 \bibitem{porter1980algorithm}
 M.~F. Porter, ``An algorithm for suffix stripping,'' {\em Program}, vol.~14,
@@ -52,9 +66,10 @@ X.~Zhu and T.~Oates, ``Finding story chains in newswire articles using random
   walks,'' {\em Information Systems Frontiers}, vol.~16, no.~5, pp.~753--769,
   2014.
 
-\bibitem{bandari2012pulse}
-R.~Bandari, S.~Asur, and B.~A. Huberman, ``The pulse of news in social media:
-  Forecasting popularity,'' {\em arXiv preprint arXiv:1202.0332}, 2012.
+\bibitem{manning2014stanford}
+C.~D. Manning, M.~Surdeanu, J.~Bauer, J.~R. Finkel, S.~Bethard, and
+  D.~McClosky, ``The stanford corenlp natural language processing toolkit.,''
+  in {\em ACL (System Demonstrations)}, pp.~55--60, 2014.
 
 \bibitem{Lex:2012:MQW:2184305.2184308}
 E.~Lex, M.~Voelske, M.~Errecalde, E.~Ferretti, L.~Cagnina, C.~Horn, B.~Stein,
@@ -74,16 +89,6 @@ D.~L. Davies and D.~W. Bouldin, ``A cluster separation measure,'' {\em IEEE
 \bibitem{kovacs2005cluster}
 F.~Kov{\'a}cs, C.~Leg{\'a}ny, and A.~Babos, ``Cluster validity measurement
   techniques,'' Citeseer.
-
-\bibitem{szabo2010predicting}
-G.~Szabo and B.~A. Huberman, ``Predicting the popularity of online content,''
-  {\em Communications of the ACM}, vol.~53, no.~8, pp.~80--88, 2010.
-
-\bibitem{Tatar:2011:PPO:1988688.1988766}
-A.~Tatar, J.~Leguay, P.~Antoniadis, A.~Limbourg, M.~D. de~Amorim, and S.~Fdida,
-  ``Predicting the popularity of online articles based on user comments,'' in
-  {\em Proceedings of the International Conference on Web Intelligence, Mining
-  and Semantics}, WIMS '11, (New York, NY, USA), pp.~67:1--67:8, ACM, 2011.
 
 \bibitem{Ilievski:2013:PNR:2516641.2516644}
 I.~Ilievski and S.~Roy, ``Personalized news recommendation based on implicit
