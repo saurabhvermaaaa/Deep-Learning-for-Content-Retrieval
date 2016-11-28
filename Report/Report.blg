@@ -3,38 +3,40 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Report.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
+Warning--empty booktitle in telgarsky2010hartigan
+Warning--empty year in telgarsky2010hartigan
 Warning--empty booktitle in kovacs2005cluster
 Warning--empty year in kovacs2005cluster
-You've used 21 entries,
+You've used 22 entries,
             1876 wiz_defined-function locations,
-            607 strings with 7394 characters,
-and the built_in function-call counts, 6158 in all, are:
-= -- 611
-> -- 224
+            610 strings with 7505 characters,
+and the built_in function-call counts, 6320 in all, are:
+= -- 620
+> -- 232
 < -- 0
-+ -- 83
-- -- 62
-* -- 433
-:= -- 847
++ -- 86
+- -- 64
+* -- 444
+:= -- 869
 add.period$ -- 22
-call.type$ -- 21
-change.case$ -- 20
+call.type$ -- 22
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 334
-empty$ -- 604
-format.name$ -- 62
-if$ -- 1503
+cite$ -- 26
+duplicate$ -- 346
+empty$ -- 626
+format.name$ -- 64
+if$ -- 1540
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 22
-newline$ -- 67
-num.names$ -- 21
-pop$ -- 81
+int.to.str$ -- 22
+missing$ -- 23
+newline$ -- 70
+num.names$ -- 22
+pop$ -- 91
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 220
+skip$ -- 223
 stack$ -- 0
 substring$ -- 446
 swap$ -- 130
@@ -42,8 +44,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 66
-width$ -- 23
-write$ -- 209
-(There were 2 warnings)
+warning$ -- 4
+while$ -- 67
+width$ -- 24
+write$ -- 215
+(There were 4 warnings)

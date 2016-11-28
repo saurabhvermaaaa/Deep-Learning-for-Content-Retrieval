@@ -61,10 +61,9 @@ P.~Linell, {\em The written language bias in linguistics: Its nature, origins
 X.~Zhang and Y.~LeCun, ``Text understanding from scratch,'' {\em arXiv preprint
   arXiv:1502.01710}, 2015.
 
-\bibitem{zhu2014finding}
-X.~Zhu and T.~Oates, ``Finding story chains in newswire articles using random
-  walks,'' {\em Information Systems Frontiers}, vol.~16, no.~5, pp.~753--769,
-  2014.
+\bibitem{telgarsky2010hartigan}
+M.~Telgarsky and A.~Vattani, ``Hartigan's method: k-means clustering without
+  voronoi.,''
 
 \bibitem{manning2014stanford}
 C.~D. Manning, M.~Surdeanu, J.~Bauer, J.~R. Finkel, S.~Bethard, and
@@ -76,6 +75,11 @@ E.~Lex, M.~Voelske, M.~Errecalde, E.~Ferretti, L.~Cagnina, C.~Horn, B.~Stein,
   and M.~Granitzer, ``Measuring the quality of web content using factual
   information,'' in {\em Proceedings of the 2Nd Joint WICOW/AIRWeb Workshop on
   Web Quality}, WebQuality '12, (New York, NY, USA), pp.~7--10, ACM, 2012.
+
+\bibitem{zhu2014finding}
+X.~Zhu and T.~Oates, ``Finding story chains in newswire articles using random
+  walks,'' {\em Information Systems Frontiers}, vol.~16, no.~5, pp.~753--769,
+  2014.
 
 \bibitem{dunn1974well}
 J.~C. Dunn†, ``Well-separated clusters and optimal fuzzy partitions,'' {\em
