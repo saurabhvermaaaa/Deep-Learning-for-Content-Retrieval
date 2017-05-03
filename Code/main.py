@@ -1,6 +1,8 @@
 import gensim
 import codecs
 import os
+import os.path
+import pickle
 import numpy
 from time_logging import start, finish
 from representation import getVector
@@ -13,15 +15,24 @@ from SVM import svmRepresentative
 path = "./apnews_dbow/doc2vec.bin"
 dataset = "../Dataset/Data/"
 n_clusters = 30
+pickledump = "../Dataset/data.dump"
+modeldump = "../Dataset/model.dump"
 
 start("Loading Doc2Vec model")
-model = gensim.models.Doc2Vec.load(path)
+if not os.path.isfile(modeldump):
+    model = gensim.models.Doc2Vec.load(path)
+    dump = open(modeldump, "w")
+    pickle.dump(model, dump)
+    dump.close()
+else:
+    dump = open(modeldump, "r")
+    model = pickle.load(dump)
+    dump.close()
 finish("Doc2Vec model loaded.")
 
 start("gathering data")
 documents, trueLabels, topArticle = [], [], []
 
-total= 5
 for topic in os.listdir(dataset):
     for file in os.listdir(dataset + topic):
         f = open(dataset + topic + '/' + file, 'r')
@@ -31,14 +42,21 @@ for topic in os.listdir(dataset):
         documents.append(TextBlob(text))
         trueLabels.append(topic)
         topArticle.append(file == "1.txt")
-    total-= 1
-    if(total == 0):
-        break
 finish("data loaded")
 
-start("Feature Extraction")
-data = [getVector(model, x) for x in documents]
-finish("Features extracted")
+if not os.path.isfile(pickledump):
+    start("Feature Extraction")
+    data = [getVector(model, x) for x in documents]
+    finish("Features extracted")
+
+    dump = open(pickledump, "w")
+    pickle.dump(data, dump)
+    dump.close()
+else:
+    dump = open(pickledump, "r")
+    data = pickle.load(dump)
+    dump.close()
+
 
 print numpy.linalg.norm(data[0] - data[3]), numpy.linalg.norm(data[0]), numpy.linalg.norm(data[3])
 print numpy.linalg.norm(data[0] - data[2]), numpy.linalg.norm(data[0] - data[1]), numpy.linalg.norm(data[1] - data[2])
@@ -58,8 +76,8 @@ print "Number of Clusters formed : ", clustersCount
 articles = [[] for i in xrange(clustersCount)]
 
 for i in xrange(len(documents)):
-    print i, coreLabels[i]
-    articles[coreLabels[i]].append(i)
+    if(coreLabels[i] >= 0):
+        articles[coreLabels[i]].append(i)
 
 coreBest = [coreRepresentative(articles[i], coreSamples) for i in xrange(clustersCount)]
 print coreBest
@@ -75,6 +93,7 @@ finish("Agglomerative Clustering done.")
 
 start("DBSCAN Cosine Clustering")
 dbscanCosineLabels = dbscanCosineClustering(data)
+print "dbscanCosineLabels", dbscanCosineLabels
 finish("DBSCAN Cosine Clustering done.")
 
 start("Agglomerative Cosine Clustering")
@@ -85,7 +104,7 @@ start("Compare Clustering algorithms.")
 print scoringClusters(trueLabels, coreLabels, data)
 print scoringClusters(trueLabels, kMeansLabels, data)
 print scoringClusters(trueLabels, agglomerativeLabels, data)
-print scoringClusters(trueLabels, dbscanCosineLabels, data)
+#print scoringClusters(trueLabels, dbscanCosineLabels, data)
 print scoringClusters(trueLabels, agglomerativeCosineLabels, data)
 #TODO : Plot graphs
 finish("Clustering comparison done.")

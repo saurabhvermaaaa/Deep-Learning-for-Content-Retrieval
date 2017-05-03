@@ -26,7 +26,7 @@ def scoringClusters(labels_true, labels, data):
             metrics.fowlkes_mallows_score(labels_true, labels), metrics.calinski_harabaz_score(data, labels)]
 
 def dbscanClustering(data):
-    model = DBSCAN(eps=1, min_samples=2, n_jobs=2)
+    model = DBSCAN(eps=2.5, min_samples=3, n_jobs=1)
     db = model.fit(data)
     return db.labels_, db.core_sample_indices_
 
@@ -36,12 +36,12 @@ def kMeansClustering(data, n_clusters):
     return kmeans.labels_
 
 def agglomerativeCosineClustering(data, n_clusters):
-    model = AgglomerativeClustering(n_clusters=n_clusters, linkage='average', connectivity=cosine_similarity)
+    model = AgglomerativeClustering(n_clusters=n_clusters, linkage='ward', connectivity=cosine_similarity)
     agglo = model.fit(data)
     return agglo.labels_
 
 def dbscanCosineClustering(data):
-    model = DBSCAN(eps=1, min_samples=2, n_jobs=2, metric=cosine_similarity)
+    model = DBSCAN(eps=0.5, min_samples=1, n_jobs=4, metric='cosine', algorithm='brute')
     db = model.fit(data)
     return db.labels_, db.core_sample_indices_
 
