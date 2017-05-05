@@ -11,6 +11,7 @@ def coreRepresentative(articles, coreSamples):
 def combination(age, source, subjectivity, entities, facts):
     return age + source + subjectivity + entities + facts
 
+#TODO
 def featureScore(article):
     age = 11
     source = 0

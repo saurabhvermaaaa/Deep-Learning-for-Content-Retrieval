@@ -20,6 +20,8 @@ finish("Doc2Vec model loaded.")
 
 start("gathering data")
 documents, trueLabels, topArticle = [], [], []
+
+total= 5
 for topic in os.listdir(dataset):
     for file in os.listdir(dataset + topic):
         f = open(dataset + topic + '/' + file, 'r')
@@ -29,14 +31,16 @@ for topic in os.listdir(dataset):
         documents.append(TextBlob(text))
         trueLabels.append(topic)
         topArticle.append(file == "1.txt")
+    total-= 1
+    if(total == 0):
+        break
 finish("data loaded")
 
 start("Feature Extraction")
 data = [getVector(model, x) for x in documents]
 finish("Features extracted")
 
-print data[0], data[1]
-print numpy.linalg.norm(data[0] - data[3])
+print numpy.linalg.norm(data[0] - data[3]), numpy.linalg.norm(data[0]), numpy.linalg.norm(data[3])
 print numpy.linalg.norm(data[0] - data[2]), numpy.linalg.norm(data[0] - data[1]), numpy.linalg.norm(data[1] - data[2])
 
 start("Events Clustering data")
@@ -46,14 +50,15 @@ finish("Events Clustering done.")
 
 start("Representative Election")
 clusters = set(coreLabels)
-clustersCount = len(clusters) - (1 if -1 in labels else 0)
+clustersCount = len(clusters) - (1 if -1 in coreLabels else 0)
 print "coreLabels : ", coreLabels
 print "Clusters : ", clusters
 print "Number of Clusters formed : ", clustersCount
 
-articles = [[] * xrange(len(clusters))]
+articles = [[] for i in xrange(clustersCount)]
 
 for i in xrange(len(documents)):
+    print i, coreLabels[i]
     articles[coreLabels[i]].append(i)
 
 coreBest = [coreRepresentative(articles[i], coreSamples) for i in xrange(clustersCount)]
@@ -104,5 +109,6 @@ start("Compare Representative Election")
 print coreBest, tfidfBest, randomBest, svmBest
 # rank from AG corpus
 # factual density
+# TODO
 finish("Representative Election comparison done.")
 
