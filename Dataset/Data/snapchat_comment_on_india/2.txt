@@ -1,0 +1,33 @@
+url : http://indianexpress.com/article/technology/tech-news-technology/snapchat-ceo-evan-spiegels-alleged-anti-india-remark-anthony-pompliano-here-are-details-from-the-lawsuit-4616133/
+
+Snapchat CEO row: Here’s the full context around that ‘Poor India’ remark
+Snapchat is busy fire-fighting thanks to a report which claims CEO Evan Spiegel said the app was not for poor countries like India
+
+Snapchat is busy fire-fighting, ever since the Variety report came out which quotes CEO Evan Spiegel as saying (back in 2015) the app was only for rich people and not for poor countries like India or Spain. The context of this remark, for which there is no proof that it was actually made by the Snapchat CEO,  is in a lawsuit filed by former employee Anthony Pompliano, who claims the company was fudging user data and misleading advertisers.
+Now, Snapchat is facing some serious hate in India thanks to these ‘supposed’ remarks from Spiegel. In fact, on the Apple App Store, the ratings are down to one star thanks to some angry Indians. Snapchat’s Twitter account has been reposting articles pointing out how Spiegel didn’t actually make this comment.
+But what does the lawsuit allege? The unredacted court documents with the full list of claims and counter claims is now available on Scribd. Here’s a look at the key points in the lawsuit that Snapchat is fighting against Pompliano.
+
+So what exactly is Snapchat saying in this lawsuit? 
+Snapchat’s documents claim Pompliano’s lawsuit is “just one big publicity stunt for him.” Snap Inc’s lawyers allege that initially Pompliano filed for a private arbitration against the company, and later moved to open court, and even his original attorneys withdrew from the case.
+According to the Snap Inc, Pompliano’s main charge is that the company “maligned him” and he was unable to find a job, which the company alleges is a lie as he soon found work after being fired from the company.  It also adds that he was then fired from this next job for “poor performance” as well, and also charged the other company with allegations of ‘fraud.’ The case is ‘Pompliano vs Brighten Labs.’
+Snap Inc is dismissing Pompliano’s charge that they lied about user metrics and data, and are “misleading investors.” The statement from Snap Inc in the lawsuit says, “Both halves of that remarkable claim are false.”
+
+The contention of Pompliano’s lawsuit is this: Snapchat is alleged to have shown that it has 100 million DAUs, when the DAU count by Flurry was 97 million, and according to Blizzard was 95 million.
+Snapchat’s response:  The two-year-old allegation is false, and they were not lying to advertisers or investors that they had 100 million DAUs. It also says Pompliano remains “uninformed” about the company.
+The company says before June 2015 they were using a third-party system to count DAUs, and now they rely on an analytics platform developed in-house. According to Snap Inc, the DAU is counted when the user opens the app, and only once per user per day. It also says it reduced the pre-June 2015 DAUs by 4.8 per cent, accounting for the overstated data from the third party tool.
+
+The company adds that they “long ago switched from one system to the other, reduced its historical DAUs to account for the switch, told its investors as much, and disclosed all this to the public twice over in its prospectus.” Snap Inc also says the ex-employee knows nothing about their current metrics, and that he is “just making things up.”
+What is Pompliano’s side of the story? 
+For context, it should be noted that Pompliano was hired from Facebook, which is currently Snap Inc’s bigger rival, and has been busy copying its features, including Stories, Filters, etc.
+Pompliano is alleging that he was “fraudulently” lured away from Facebook, with the company falsely representing its growth and number to him. He also states in the lawsuit that when he met “with his initial team members who were data analysts Jie Liu and Ben Wu, they pointed out that the company had an “institutional aversion to analysing user data.”  Pompliano claims the company’s senior executives were “completely misinformed about… most fundamental user growth and engagement metrics.”
+
+His side of the story also claims Snapchat’s “registration flow completion rate”  was less than 40 per cent, while the company told advertisers it was 87 per cent. Also he claims the user retention rate was only 20 per cent, which means it was losing 80 per cent of its users within seven days. He also claims in the lawsuit that he saw “hard copies of marketing brochures used to solicit advertisers that represented that Snapchat had over 100 million DAUs.”
+So when exactly is Spiegel alleged to have made the remark?
+According to Pompliano, he made a presentation, talking about the issues with Snapchat data, and that it was not 100 million. He claims Spiegel dismissed it and said, “Yeah, I read those; it doesn’t matter.”
+The lawsuit alleges “Spiegel stubbornly refused to hear” about the issues in data inaccuracy, and the Snapchat CEO dismissed the DAU count issue as “no big deal.”
+The India remark is alleged to have been made in the context of the Snap Inc’s international users, which Pompliano pointed out was very low. He gave the example of India and Spain, where social media engagement was high, but Snapchat wasn’t really growing.
+
+Now the lawsuit states, “Spiegel abruptly cut in and said, “This app is only for rich people. I don’t want to expand into poor countries like India and Spain.” He claims Snapchat fired him because they were worried that he would “blow the whistle” on the company and was being seen as a ‘threat’ to their upcoming IPO.  Pompliano was fired just three weeks into the job.
+What does all of this mean for Snap Inc and Snapchat?
+Snapchat wants the case to go in to arbitration, but it has now allowed for these documents to be made public. That’s how the ‘Poor India and Spain’ remark may have come to light and caused so much hate. If you look at Snapchat’s SEC filing for June 2015, the DAUs is listed as 89 million, with North America dominating this. Snap Inc’s filing also mentions how they changed methods of data collection for DAUs.
+Of course, for a lot of Indians, the issue seems to be whether Spiegel made the comment. Once again there is no way of proving this; Snap Inc is already denying all the charges made by Pompliano, and if you go by the SEC filing, the 100 million number only makes an appearance in December 2015. But given the company just went public, the timing of this lawsuit and PR disaster with India is just too bad.

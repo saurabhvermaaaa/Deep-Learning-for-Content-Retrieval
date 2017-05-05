@@ -1,0 +1,35 @@
+url : http://www.thehindu.com/news/national/sc-refers-whatsapp-privacy-policy-matter-to-constitution-bench/article17822724.ece
+
+SC refers WhatsApp privacy policy matter to Constitution Bench
+
+Delhi HC had restrained WhatsApp from sharing with Facebook the user information when its new privacy policy came into effect.
+
+A Constitution Bench of five judges will decide on April 18 whether a larger denomination of judges should hear a petition for a declaration that a 2016 policy of instant messaging app — WhatsApp — to give Facebook access to information and personal details shared by millions of its users is a violation of their privacy and free speech.
+
+Having at first meant to hear the case during the summer vacation, Chief Justice of India J.S. Khehar on Wednesday advanced the date for the Constitution Bench hearing to April 18, saying it is a “serious issue”.
+
+The case is based on a petition by two young students — 19-year-old Karmanya Singh Sareen and 22-year-old Shreya Sethi — to challenge the contract entered into between the two Internet giants to provide access to calls, photographs, texts, videos and documents shared by users despite the fact that privacy is prized and guaranteed by WhatsApp.
+
+The duo was aggrieved by the Delhi High Court decision to uphold the contract. The High Court took a nuanced position by confirming the legality of the policy effective from September 25 though directing WhatsApp to “delete completely” from its server information/ data/ details of all users who choose to delete their account.
+
+On appeal, the Supreme Court responded by directing Facebook, WhatsApp, the Centre and Telecom Regulatory Authority of India (TRAI) to file responses and roped in Attorney-General Mukul Rohatgi to assist it in the case.
+
+When the hearing began, senior advocate K.K. Venugopal, for Facebook, raised the contention that if the WhatsApp-Facebook contract is going to be challenged as a violation of the right to privacy, then a larger Bench than five judges should hear the case.
+
+He referred to the 1954 eight-judges Bench verdict in M.P. Sharma's case and the six-judges Bench judgment of 1962 in Kharak Singh case on the right to privacy. Both judgment had categorically rejected the existence of privacy as a guaranteed right under Article 21 of the Constitution.
+
+Mr. Venugopal argued that any future debate on the question of right to privacy should be decided by a larger Bench of at least nine judges.
+
+However, advocate Madhavi Divan, assisting the court, intervened to submit that the Supreme Court should not only hear the question of violation of right to privacy under Article 21 but also the right to free speech under Article 19 (1) (a) of the Constitution.
+
+Senior advocate Kapil Sibal contended that privacy cannot be construed as a fundamental right guaranteed under Article 21 of the Constitution. What is under contention here is the terms of a simple contract between two companies — WhatsApp and Facebook.
+
+Chief Justice Khehar called for a pause in the submissions and told the lawyers that they can discuss these points before the Constitution Bench on April 18, and even request the formation of a larger Bench of nine judges.
+
+“We will right now send the case to a Bench of five judges. You can ask the five-judge Bench to further refer the case to a nine-judge Bench,” Chief Justice Khehar said.
+
+Represented by senior advocate Harish Salve, the students had argued that the new policy would result in changing the most valuable feature of WhatsApp — privacy. They had demanded an option of “do not share” for users who did not wish to share information with Facebook.
+
+On April 18, the five-judge Constitution Bench may decide convenient dates for presentation of arguments in the matter. There is also a likelihood that the hearing in the case on merits may start only after July 2, post the court's summer vacations.
+
+The CJI had earlier lined up the case for one of the three Constitution Benches scheduled to sit during the summer vacation, starting from May 11. Chief Justice Khehar had pooh-poohed pleas by lawyers to post the case after summer holidays by saying that such cases should be heard now or they may never come up for hearing.
